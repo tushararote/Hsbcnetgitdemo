@@ -8,9 +8,12 @@ public class Base {
 		System.out.println("project started");
 		
 		Login l = new Login();
-		
 		l.sde3Login();
+	
+		PriorityPayment pp = new PriorityPayment();
+		pp.MXCorePP();
 		
+		l.Logout();
 	}
 
 }
